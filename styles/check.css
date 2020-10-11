@@ -130,17 +130,6 @@ body {
 	border-radius: 5px;
 	padding: 5px 5px;
 }
-#error-message {
-	visibility: hidden;
-	font-size: 15px;
-	color: hsl(360, 66%, 61%);
-	font-family: sans-serif;
-	font-style: italic;
-	float: left;
-	margin-right: 300px;
-	margin-left: 50px;
-	margin-top: 5px;
-}
 .text-bar input {
 	display: flex;
 	float: left;
@@ -224,9 +213,6 @@ body {
 	font-size: 13px;
 	color: hsl(0, 0%, 75%);
 }
-.desktop-break {
-	display: block;
-}
 .horizontal-break {
 	padding: 0px 20px 5px 5px;
 	margin: 250px 0px 400px 0px;
@@ -278,6 +264,7 @@ body {
 	height: 20px;
 	margin: 100px 10px 10px 10px;
 }
+
 .footer ul {
 	list-style: none;
 	font-size: 10px;
@@ -313,228 +300,71 @@ body {
 	}
 	.nav-bar {
 		display: grid;
-		margin: 0px;
-		padding: 0px;
 	}
 	.nav-images {
 		display: inline-block;
 	}
 	.nav-logo {
-		margin: 40px 0px -60px 40px;
-		padding: 0px;
+		float: left;
+		margin: 80px 0px 0px 0px;
 	}
 	.menu-icon {
-		display: inline-block;
-		margin-left: 300px;
-		margin-top: 20px;
+		display: inline;
 	}
 	.menu-icon img {
-		width: 25px;
+		width: 50px;
+		margin: -60px 100px 0px 600px;
+		float: right;
 	}
 	.nav-links {
 		visibility: hidden;
 		display: grid;
 		background-color:  hsl(257, 27%, 26%);
-		margin: 20px 100px 0px 0px;
 		text-align: center;
-		border-radius: 10px;
+		border-radius: 8px;
+		padding: 50px 100px 50px 100px;
+		margin: 50px 0px 0px 0px;
 		font-weight: bold;
 		transition: 0.5s;
-		padding: 0px;
-		margin: 30px 100px 0px 50px;
 	}	
 	.nav-links ul{
+		display: block;
 		list-style: none;
 		text-align: center;
-		margin: 30px 70px;
-		padding: 0px;
+		padding: 10px 400px 0px 80px;
+		margin: 0px;
 	}
-	.nav-links ul li {
-		display: block;
+	.nav-links li {
 		color: white;
+		font-size: 25px;	
 	}
 	.authorization-btn {
-		margin: 30px 25px;
 		display: grid;
+		margin: 0px 400px 10px 0px ;
+		padding: 50px 10px 20px 80px;
 		text-align: center;
 	}
 	.login-btn {
-		padding: 0px;
+		margin: 0px 0px 10px 0px;
 		color: white;
 	}
 	.signup-btn {
-		text-align: center;
-		padding: 8px 50px;
-		margin: 20px 10px 10px 0px;
+		padding: 5px 20px;
+		margin: 0px -50px 0px -50px;
 		color: white;
 	}
 	.banner-title {
 		display: block;
-		padding: 0px;
 		margin: 0px;
 	}
-	.banner-title p {
-		text-align: center;
-		margin: 10px 5px 10px -60px;
-		font-size: 15px;
-		font-weight: normal;
-	}
 	.banner-title h1 {
-		font-size: 32px;
-		margin: 0px 10px 0px -50px;
+		font-size: 30px;
 		text-align: center;
 	}
 	.banner-img {
 		float: left;
-		margin-top: -680px;
 	}
-	.banner-img img {
-		width: 500px;
-		height: 350px;
+	.horizontal-break-menu {
+		height: 5px;
 	}
-	.text-bar {
-		width: 80%;
-		height: 5%;
-		margin-top: 430px;
-		margin-left: 10%;
-	}
-	.text-bar input{
-		width: 80%;
-		height: 20px;
-		text-align: center;
-		border-radius: 5px;
-		margin-left: 18px;
-		margin-top: 12px;
-		margin-bottom: 10px;
-		padding: 10px;
-	}
-	.text-bar button {
-		width: 88%;
-		margin-top: 5px;
-		margin-bottom: 12px;
-		margin-left: 18px;
-		padding: 10px;
-	}
-	.block-levels {
-		display: block;
-	}
-	.text-stat {
-		margin: 0px;
-		padding: 0px;
-	}
-	.text-stat-heading {
-		font-size: 30px;
-		font-weight: bold;
-		padding: 90px 0px 0px 0px;
-		margin-top: 0px;
-	}
-	.text-stat-description {
-		color: hsl(0, 0%, 75%);
-		margin-top: 30px; 
-		font-size: 15px;
-		padding: 0px 10px 0px 10px;
-	}
-	.line-breaking {
-		display: block;
-	}
-
-	.block-levels img {
-		background-color:  hsl(257, 27%, 26%);
-		border-radius: 75px;
-		padding: 15px;
-		margin: -30px 0px 0px 0px; 
-	}
-	.block1 {
-		margin: 50px;
-		text-align: center;
-		margin-bottom: 0px;
-		padding: 1px 20px 50px 20px;
-	}
-	.block2 {
-		margin: 0px 50px;
-		text-align: center;
-		margin-bottom: 0px;
-		padding: 1px 20px 50px 20px;
-	}
-	.block3 {
-		margin: 0px 50px;
-		text-align: center;
-		margin-bottom: 100px;
-		padding: 1px 20px 50px 20px;
-	}
-	.horizontal-break {
-		width: 2%;
-		height: 30%;
-		padding: 50px 0px 0px 0px;
-		margin: 0px 185px;
-		margin-bottom: 22px;
-		background-color: hsl(180, 66%, 49%);
-	}
-	.boost{
-		padding: 35px; 
-		margin: 0px;
-		text-align: center;
-		background-image: url(../images/bg-boost-desktop.svg);
-		background-color:  hsl(257, 27%, 26%);
-	}
-	.footer {
-		margin: 0px;
-		display: block;
-		background-color: black;
-		color: white;
-	}
-	.footer-logo {
-		filter: invert(100%);
-		margin: 0px 200px 0px 100px;
-		padding: 30px;
-	}
-
-	.footer ul {
-		list-style: none;
-		font-size: 10px;
-		margin: 0px 0px;
-		padding: 10px 0px;
-		line-height: 2.5;
-		text-align: center;
-		margin: 0px;
-		padding: 20px 100px;
-	}
-	
-	.features {
-		text-align: center;
-		font-size: 15px;
-		padding: 20px;
-		margin: 10px 10px 0px 0px;
-	}
-	.resources {
-		text-align: center;
-		font-size: 15px;
-		padding: 20px;
-		margin: 5px 10px 0px 0px;
-	}
-	.company {
-		text-align: center;
-		font-size: 15px;
-		padding: 20px;
-		margin: 5px 10px 20px 0px;
-	}
-	.media-logos {
-		margin: -10px 100px;
-	}
-	.media-logos img{
-		display: inline;
-		width: 20px;
-		height: 20px;
-		margin: 10px 10px 50px 10px;
-	}
-	.desktop-break {
-		display: none;
-	}
-	#error-message {
-		display: none;
-		padding: 2px;
-		margin: 5px;
-		margin-left: 20px;
-	}
-
 }

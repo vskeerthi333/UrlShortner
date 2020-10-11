@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <div class = "nav-links">
+      <div class = "nav-links" id = "nav-links">
         <ul>
           <a href="#"> <li> Features </li> </a>
           <a href="#"> <li> Pricing </li> </a>
@@ -46,7 +46,7 @@
     <div class = "banner-title">
       <div class = "banner-text">
         <h1 class = "banner-heading">  More than just <br> shorter links </h1> 
-        <p class = "banner-footer"> Build your brand’s recognition and get detailed <br> insights on how your links are performing.</p>
+        <span class = "line-breaking"> <p class = "banner-footer"> Build your brand’s recognition and </span><span class = " line-breaking">get detailed insights on how your </span> <span class = "line-breaking"> links are performing.</p> </span>
         <button class = "get-started-btn"> Get Started </button>
       </div>
       <div class = "banner-img"> <img src = "images/illustration-working.svg"> </div>
@@ -55,8 +55,9 @@
 
     <div class = "text-bar">
       <div class = "wrap-text-bar">
-        <input type = "text" name = "url-input"  placeholder = "Shorten a link here...">
-        <button class = "shorten-btn"> Shorten It! </button>
+        <input type = "text" name = "url-input" id = "urlInput" placeholder = "Shorten a link here...">
+        <p id = "error-message"> please add a link </p>
+        <button class = "shorten-btn" id = "shortenUrl"> Shorten It! </button>
       </div>
     </div>
 
@@ -65,7 +66,7 @@
     <div class = "text-stat">    
       <p class = "text-stat-heading"> Advanced Statistics </p>
 
-      <p class = "text-stat-description"> Track how your links are performing across the web with <br> our advanced statistics dashboard. </p>
+      <p class = "text-stat-description"> <span class = "line-breaking"> Track how your links are performing </span>  <span class = "line-breaking"> across the web <span class = "desktop-break" >with our advanced statistics dashboard. </p> </span>
   </div>
 
   <div class = "block-levels">
@@ -110,6 +111,7 @@
     <div class = "footer-logo"> 
         <img src = "images/logo.svg">
     </div>
+
     <div class = "features">
         <h5> Features </h5>
       <ul>
@@ -137,6 +139,7 @@
         <li> Contact </li>
       </ul>
     </div>
+
     <div class = "media-logos">
     <img src = "images/icon-facebook.svg">
     <img src = "images/icon-twitter.svg">
@@ -152,5 +155,6 @@
 </div>
 </div>
 <script type="text/javascript" src="scripts/script.js"></script>
+<script type="text/javascript" src="scripts/shortenScript.js"></script>
 </body>
 </html>
